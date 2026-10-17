@@ -1,0 +1,170 @@
+ARG policy RR
+ARG jlist 100,100,100
+
+Here is the job list, with the run time of each job: 
+  Job 0 ( length = 100.0 )
+  Job 1 ( length = 100.0 )
+  Job 2 ( length = 100.0 )
+
+
+** Solutions **
+
+Execution trace:
+  [ time   0 ] Run job   0 for 2.00 secs
+  [ time   2 ] Run job   1 for 2.00 secs
+  [ time   4 ] Run job   2 for 2.00 secs
+  [ time   6 ] Run job   0 for 2.00 secs
+  [ time   8 ] Run job   1 for 2.00 secs
+  [ time  10 ] Run job   2 for 2.00 secs
+  [ time  12 ] Run job   0 for 2.00 secs
+  [ time  14 ] Run job   1 for 2.00 secs
+  [ time  16 ] Run job   2 for 2.00 secs
+  [ time  18 ] Run job   0 for 2.00 secs
+  [ time  20 ] Run job   1 for 2.00 secs
+  [ time  22 ] Run job   2 for 2.00 secs
+  [ time  24 ] Run job   0 for 2.00 secs
+  [ time  26 ] Run job   1 for 2.00 secs
+  [ time  28 ] Run job   2 for 2.00 secs
+  [ time  30 ] Run job   0 for 2.00 secs
+  [ time  32 ] Run job   1 for 2.00 secs
+  [ time  34 ] Run job   2 for 2.00 secs
+  [ time  36 ] Run job   0 for 2.00 secs
+  [ time  38 ] Run job   1 for 2.00 secs
+  [ time  40 ] Run job   2 for 2.00 secs
+  [ time  42 ] Run job   0 for 2.00 secs
+  [ time  44 ] Run job   1 for 2.00 secs
+  [ time  46 ] Run job   2 for 2.00 secs
+  [ time  48 ] Run job   0 for 2.00 secs
+  [ time  50 ] Run job   1 for 2.00 secs
+  [ time  52 ] Run job   2 for 2.00 secs
+  [ time  54 ] Run job   0 for 2.00 secs
+  [ time  56 ] Run job   1 for 2.00 secs
+  [ time  58 ] Run job   2 for 2.00 secs
+  [ time  60 ] Run job   0 for 2.00 secs
+  [ time  62 ] Run job   1 for 2.00 secs
+  [ time  64 ] Run job   2 for 2.00 secs
+  [ time  66 ] Run job   0 for 2.00 secs
+  [ time  68 ] Run job   1 for 2.00 secs
+  [ time  70 ] Run job   2 for 2.00 secs
+  [ time  72 ] Run job   0 for 2.00 secs
+  [ time  74 ] Run job   1 for 2.00 secs
+  [ time  76 ] Run job   2 for 2.00 secs
+  [ time  78 ] Run job   0 for 2.00 secs
+  [ time  80 ] Run job   1 for 2.00 secs
+  [ time  82 ] Run job   2 for 2.00 secs
+  [ time  84 ] Run job   0 for 2.00 secs
+  [ time  86 ] Run job   1 for 2.00 secs
+  [ time  88 ] Run job   2 for 2.00 secs
+  [ time  90 ] Run job   0 for 2.00 secs
+  [ time  92 ] Run job   1 for 2.00 secs
+  [ time  94 ] Run job   2 for 2.00 secs
+  [ time  96 ] Run job   0 for 2.00 secs
+  [ time  98 ] Run job   1 for 2.00 secs
+  [ time 100 ] Run job   2 for 2.00 secs
+  [ time 102 ] Run job   0 for 2.00 secs
+  [ time 104 ] Run job   1 for 2.00 secs
+  [ time 106 ] Run job   2 for 2.00 secs
+  [ time 108 ] Run job   0 for 2.00 secs
+  [ time 110 ] Run job   1 for 2.00 secs
+  [ time 112 ] Run job   2 for 2.00 secs
+  [ time 114 ] Run job   0 for 2.00 secs
+  [ time 116 ] Run job   1 for 2.00 secs
+  [ time 118 ] Run job   2 for 2.00 secs
+  [ time 120 ] Run job   0 for 2.00 secs
+  [ time 122 ] Run job   1 for 2.00 secs
+  [ time 124 ] Run job   2 for 2.00 secs
+  [ time 126 ] Run job   0 for 2.00 secs
+  [ time 128 ] Run job   1 for 2.00 secs
+  [ time 130 ] Run job   2 for 2.00 secs
+  [ time 132 ] Run job   0 for 2.00 secs
+  [ time 134 ] Run job   1 for 2.00 secs
+  [ time 136 ] Run job   2 for 2.00 secs
+  [ time 138 ] Run job   0 for 2.00 secs
+  [ time 140 ] Run job   1 for 2.00 secs
+  [ time 142 ] Run job   2 for 2.00 secs
+  [ time 144 ] Run job   0 for 2.00 secs
+  [ time 146 ] Run job   1 for 2.00 secs
+  [ time 148 ] Run job   2 for 2.00 secs
+  [ time 150 ] Run job   0 for 2.00 secs
+  [ time 152 ] Run job   1 for 2.00 secs
+  [ time 154 ] Run job   2 for 2.00 secs
+  [ time 156 ] Run job   0 for 2.00 secs
+  [ time 158 ] Run job   1 for 2.00 secs
+  [ time 160 ] Run job   2 for 2.00 secs
+  [ time 162 ] Run job   0 for 2.00 secs
+  [ time 164 ] Run job   1 for 2.00 secs
+  [ time 166 ] Run job   2 for 2.00 secs
+  [ time 168 ] Run job   0 for 2.00 secs
+  [ time 170 ] Run job   1 for 2.00 secs
+  [ time 172 ] Run job   2 for 2.00 secs
+  [ time 174 ] Run job   0 for 2.00 secs
+  [ time 176 ] Run job   1 for 2.00 secs
+  [ time 178 ] Run job   2 for 2.00 secs
+  [ time 180 ] Run job   0 for 2.00 secs
+  [ time 182 ] Run job   1 for 2.00 secs
+  [ time 184 ] Run job   2 for 2.00 secs
+  [ time 186 ] Run job   0 for 2.00 secs
+  [ time 188 ] Run job   1 for 2.00 secs
+  [ time 190 ] Run job   2 for 2.00 secs
+  [ time 192 ] Run job   0 for 2.00 secs
+  [ time 194 ] Run job   1 for 2.00 secs
+  [ time 196 ] Run job   2 for 2.00 secs
+  [ time 198 ] Run job   0 for 2.00 secs
+  [ time 200 ] Run job   1 for 2.00 secs
+  [ time 202 ] Run job   2 for 2.00 secs
+  [ time 204 ] Run job   0 for 2.00 secs
+  [ time 206 ] Run job   1 for 2.00 secs
+  [ time 208 ] Run job   2 for 2.00 secs
+  [ time 210 ] Run job   0 for 2.00 secs
+  [ time 212 ] Run job   1 for 2.00 secs
+  [ time 214 ] Run job   2 for 2.00 secs
+  [ time 216 ] Run job   0 for 2.00 secs
+  [ time 218 ] Run job   1 for 2.00 secs
+  [ time 220 ] Run job   2 for 2.00 secs
+  [ time 222 ] Run job   0 for 2.00 secs
+  [ time 224 ] Run job   1 for 2.00 secs
+  [ time 226 ] Run job   2 for 2.00 secs
+  [ time 228 ] Run job   0 for 2.00 secs
+  [ time 230 ] Run job   1 for 2.00 secs
+  [ time 232 ] Run job   2 for 2.00 secs
+  [ time 234 ] Run job   0 for 2.00 secs
+  [ time 236 ] Run job   1 for 2.00 secs
+  [ time 238 ] Run job   2 for 2.00 secs
+  [ time 240 ] Run job   0 for 2.00 secs
+  [ time 242 ] Run job   1 for 2.00 secs
+  [ time 244 ] Run job   2 for 2.00 secs
+  [ time 246 ] Run job   0 for 2.00 secs
+  [ time 248 ] Run job   1 for 2.00 secs
+  [ time 250 ] Run job   2 for 2.00 secs
+  [ time 252 ] Run job   0 for 2.00 secs
+  [ time 254 ] Run job   1 for 2.00 secs
+  [ time 256 ] Run job   2 for 2.00 secs
+  [ time 258 ] Run job   0 for 2.00 secs
+  [ time 260 ] Run job   1 for 2.00 secs
+  [ time 262 ] Run job   2 for 2.00 secs
+  [ time 264 ] Run job   0 for 2.00 secs
+  [ time 266 ] Run job   1 for 2.00 secs
+  [ time 268 ] Run job   2 for 2.00 secs
+  [ time 270 ] Run job   0 for 2.00 secs
+  [ time 272 ] Run job   1 for 2.00 secs
+  [ time 274 ] Run job   2 for 2.00 secs
+  [ time 276 ] Run job   0 for 2.00 secs
+  [ time 278 ] Run job   1 for 2.00 secs
+  [ time 280 ] Run job   2 for 2.00 secs
+  [ time 282 ] Run job   0 for 2.00 secs
+  [ time 284 ] Run job   1 for 2.00 secs
+  [ time 286 ] Run job   2 for 2.00 secs
+  [ time 288 ] Run job   0 for 2.00 secs
+  [ time 290 ] Run job   1 for 2.00 secs
+  [ time 292 ] Run job   2 for 2.00 secs
+  [ time 294 ] Run job   0 for 2.00 secs ( DONE at 296.00 )
+  [ time 296 ] Run job   1 for 2.00 secs ( DONE at 298.00 )
+  [ time 298 ] Run job   2 for 2.00 secs ( DONE at 300.00 )
+
+Final statistics:
+  Job   0 -- Response: 0.00  Turnaround 296.00  Wait 196.00
+  Job   1 -- Response: 2.00  Turnaround 298.00  Wait 198.00
+  Job   2 -- Response: 4.00  Turnaround 300.00  Wait 200.00
+
+  Average -- Response: 2.00  Turnaround 298.00  Wait 198.00
+
